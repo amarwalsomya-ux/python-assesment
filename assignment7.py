@@ -20,6 +20,8 @@ while True:
         writer.writerow(contact)
         file.close()
 
+    
+
         print("Contact added successfully.")
 
     elif choice == 2:
@@ -38,3 +40,27 @@ while True:
 
     else:
         print("Invalid choice.")
+
+print("text file")
+with open("filee.txt","w") as f:
+    f.write("1.python file i/o\n")
+    f.write("2.working in read and write mode\n")
+    f.write("3.different file model in python\n")
+    f.write("4.open and closed file\n")
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
